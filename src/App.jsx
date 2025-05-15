@@ -5,7 +5,8 @@ import Navbar from './components/Navbar_main';
 import Task1 from './components/Task1';
 import Task2 from './components/Task2';
 import Home from './components/Home';
-import { Link } from 'react-router';
+import Footer from "./components/Footer"
+// import { Link } from 'react-router';
 const App = () => {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="*" element={<h1 style={{display:"flex",justifyContent:"space-around",alignItems:"center",height: "100vh",fontSize:"5rem"}}>🚫404 Page Not Found🚫</h1>}/>
 
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
