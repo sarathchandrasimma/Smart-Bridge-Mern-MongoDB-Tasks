@@ -71,4 +71,4 @@ npm run build
 Then, host the generated `build` folder on a web server or platform like Netlify or Vercel.
 
 ## License
-This project is licensed under [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under [license](/license).
